@@ -1,0 +1,106 @@
+$ adb shell
+VLE5:/ $ su
+/system/bin/sh: su: not found
+127|VLE5:/ $ dd
+^C0+0 records in
+0+0 records out
+0 bytes transferred in 3.063 secs (0 bytes/sec)
+
+130|VLE5:/ $ find /dev -name 'by-name' 2>/dev/null
+/dev/block/platform/soc/7824900.sdhci/by-name
+1|VLE5:/ $ ls -la /dev/block/platform/soc/7824900.sdhci/by-name
+total 0
+drwxr-xr-x 2 root root 740 1970-01-13 19:00 .
+drwxr-xr-x 4 root root 820 1970-01-13 19:00 ..
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 DDR -> /dev/block/mmcblk0p5
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 aboot -> /dev/block/mmcblk0p19
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 abootbak -> /dev/block/mmcblk0p20
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 boot -> /dev/block/mmcblk0p7
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 cache -> /dev/block/mmcblk0p10
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 cmnlib -> /dev/block/mmcblk0p13
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 cmnlibbak -> /dev/block/mmcblk0p14
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 config -> /dev/block/mmcblk0p32
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 devinfo -> /dev/block/mmcblk0p12
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 fsc -> /dev/block/mmcblk0p27
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 fsg -> /dev/block/mmcblk0p3
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 keymaster -> /dev/block/mmcblk0p15
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 keymasterbak -> /dev/block/mmcblk0p16
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 keystore -> /dev/block/mmcblk0p30
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 misc -> /dev/block/mmcblk0p26
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 modem -> /dev/block/mmcblk0p4
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 modemst1 -> /dev/block/mmcblk0p1
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 modemst2 -> /dev/block/mmcblk0p2
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 oem -> /dev/block/mmcblk0p31
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 pad -> /dev/block/mmcblk0p25
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 persist -> /dev/block/mmcblk0p9
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 recovery -> /dev/block/mmcblk0p11
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 rpm -> /dev/block/mmcblk0p21
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 rpmbak -> /dev/block/mmcblk0p22
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 sbl1 -> /dev/block/mmcblk0p17
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 sbl1bak -> /dev/block/mmcblk0p18
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 sec -> /dev/block/mmcblk0p6
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 splash -> /dev/block/mmcblk0p29
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 ssd -> /dev/block/mmcblk0p28
+lrwxrwxrwx 1 root root  20 1970-01-13 19:00 system -> /dev/block/mmcblk0p8
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 tz -> /dev/block/mmcblk0p23
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 tzbak -> /dev/block/mmcblk0p24
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 userdata -> /dev/block/mmcblk0p35
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 vendor -> /dev/block/mmcblk0p33
+lrwxrwxrwx 1 root root  21 1970-01-13 19:00 xtparams -> /dev/block/mmcblk0p34
+VLE5:/ $ dd if=/dev/block/mmcblk0p7 of=/sdcard/boot.img 
+dd: /dev/block/mmcblk0p7: Permission denied
+1|VLE5:/ $ dd if=/dev/block/mmcblk0p11 of=/sdcard/boot.img                                                                                                                                                 
+dd: /dev/block/mmcblk0p11: Permission denied
+1|VLE5:/ $ exit
+MacBook-Air:Phone Backups $ adb shell
+VLE5:/ # dd if=/dev/block/mmcblk0p7 of=/sdcard/boot.img 
+dd: /sdcard/boot.img: No such file or directory
+1|VLE5:/ # ls
+acct        cache   config default.prop etc      init.carrier.rc init.recovery.HXF-M_94V-0.rc init.usb.rc      oem     res  sdcard  system     vendor     
+bt_firmware carrier d      dev          firmware init.environ.rc init.recovery.qcom.rc        init.zygote32.rc persist root storage tombstones verity_key 
+bugreports  charger data   dsp          init     init.rc         init.usb.configfs.rc         mnt              proc    sbin sys     ueventd.rc 
+VLE5:/ # reboot
+MacBook-Air:Phone Backups $ adb shell
+VLE5:/ # cd sdcard
+/system/bin/sh: cd: /sdcard: No such file or directory
+2|VLE5:/ # ls
+acct        cache   config default.prop etc      init.carrier.rc init.recovery.HXF-M_94V-0.rc init.usb.rc      oem     res  sdcard  system     vendor     
+bt_firmware carrier d      dev          firmware init.environ.rc init.recovery.qcom.rc        init.zygote32.rc persist root storage tombstones verity_key 
+bugreports  charger data   dsp          init     init.rc         init.usb.configfs.rc         mnt              proc    sbin sys     ueventd.rc 
+VLE5:/ # cd sdcard                                                                                                                                                                                         
+/system/bin/sh: cd: /sdcard: No such file or directory
+2|VLE5:/ # cd storage/self/primary                                                                                                                                                                         
+acct/                             d/                                init                              init.usb.rc                       root/                             ueventd.rc
+bt_firmware/                      data/                             init.carrier.rc                   init.zygote32.rc                  sbin/                             vendor/
+bugreports                        default.prop                      init.environ.rc                   mnt/                              sdcard                            verity_key
+cache/                            dev/                              init.rc                           oem/                              storage/
+carrier/                          dsp/                              init.recovery.HXF-M_94V-0.rc      persist/                          sys/
+charger                           etc/                              init.recovery.qcom.rc             proc/                             system/
+config/                           firmware/                         init.usb.configfs.rc              res/                              tombstones/
+2|VLE5:/ # cd storage/self/primary                                                                                                                                                                         
+/system/bin/sh: cd: /storage/self/primary: No such file or directory
+2|VLE5:/ # ls
+acct        cache   config default.prop etc      init.carrier.rc init.recovery.HXF-M_94V-0.rc init.usb.rc      oem     res  sdcard  system     vendor     
+bt_firmware carrier d      dev          firmware init.environ.rc init.recovery.qcom.rc        init.zygote32.rc persist root storage tombstones verity_key 
+bugreports  charger data   dsp          init     init.rc         init.usb.configfs.rc         mnt              proc    sbin sys     ueventd.rc 
+VLE5:/ # cd /data/misc/wifi
+VLE5:/data/misc/wifi # ls
+WCNSS_qcom_cfg.ini hostapd sockets wpa_supplicant 
+VLE5:/data/misc/wifi # cd wpa_supplicant/                                                                                                                                                                  
+VLE5:/data/misc/wifi/wpa_supplicant # ls
+VLE5:/data/misc/wifi/wpa_supplicant # cd ..
+VLE5:/data/misc/wifi # cd ..
+VLE5:/data/misc # cd /data/local/tmp/                                                                                                                                                                      
+VLE5:/data/local/tmp # ls
+VLE5:/data/local/tmp # dd if=/dev/block/mmcblk0p7 of=boot.img        
+65536+0 records in
+65536+0 records out
+33554432 bytes transferred in 1.010 secs (33222209 bytes/sec)
+VLE5:/data/local/tmp # dd if=/dev/block/mmcblk0p11 of=recovery.img                                                                                                                                         
+65536+0 records in
+65536+0 records out
+33554432 bytes transferred in 1.255 secs (26736599 bytes/sec)
+VLE5:/data/local/tmp # MacBook-Air:Phone Backups $ adb shell
+VLE5:/ $ su
+VLE5:/ # exit
+VLE5:/ $ exit
