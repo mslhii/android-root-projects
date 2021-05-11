@@ -1,4 +1,4 @@
 # android-root-projects
 Files related to Android phone rooting
 
-Phones sup
+Phones supp
