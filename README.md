@@ -3,4 +3,4 @@ Files related to Android phone rooting
 
 Phones supported:
 1. BLU Advance L5
-2. BL
+2. BLU
