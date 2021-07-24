@@ -6,3 +6,4 @@ Phones supported:
 2. BLU Advance L4
 3. Nokia 1.3
 4. Hot Pepper Poblano VLE5
+5. 
