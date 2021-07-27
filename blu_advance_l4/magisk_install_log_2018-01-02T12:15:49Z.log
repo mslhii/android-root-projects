@@ -1,0 +1,78 @@
+- Device platform: armeabi-v7a
+- Installing: 22.0 (22000)
+- Copying image to cache
+- Unpacking boot image
+Parsing boot image: [/data/user_de/0/com.topjohnwu.magisk/install/boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [10874880]
+RAMDISK_SZ      [1255359]
+SECOND_SZ       [0]
+EXTRA_SZ        [94208]
+OS_VERSION      [8.1.0]
+OS_PATCH_LEVEL  [2018-11]
+PAGESIZE        [2048]
+NAME            []
+CMDLINE         [console=ttyS1,115200n8 buildvariant=user]
+CHECKSUM        [09019be8bd87cc67eb52e1b17a9d8a61eb9407e1000000000000000000000000]
+KERNEL_FMT      [raw]
+RAMDISK_FMT     [gzip]
+EXTRA_FMT       [raw]
+- Checking ramdisk status
+Loading cpio: [ramdisk.cpio]
+- Stock boot image detected
+- Patching ramdisk
+Loading cpio: [ramdisk.cpio]
+Add entry [init] (0750)
+Create directory [overlay.d] (0750)
+Create directory [overlay.d/sbin] (0750)
+Add entry [overlay.d/sbin/magisk32.xz] (0644)
+Patch with flag KEEPVERITY=[true] KEEPFORCEENCRYPT=[false]
+Loading cpio: [ramdisk.cpio.orig]
+Backup mismatch entry: [init] -> [.backup/init]
+Record new entry: [overlay.d] -> [.backup/.rmlist]
+Record new entry: [overlay.d/sbin] -> [.backup/.rmlist]
+Record new entry: [overlay.d/sbin/magisk32.xz] -> [.backup/.rmlist]
+Create directory [.backup] (0000)
+Add entry [.backup/.magisk] (0000)
+Dump cpio: [ramdisk.cpio]
+Loading dtbs from [extra]
+Patch @ 009C527A [736B69705F696E697472616D667300]->[77616E745F696E697472616D667300]
+- Repacking boot image
+Parsing boot image: [/data/user_de/0/com.topjohnwu.magisk/install/boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [10874880]
+RAMDISK_SZ      [1255359]
+SECOND_SZ       [0]
+EXTRA_SZ        [94208]
+OS_VERSION      [8.1.0]
+OS_PATCH_LEVEL  [2018-11]
+PAGESIZE        [2048]
+NAME            []
+CMDLINE         [console=ttyS1,115200n8 buildvariant=user]
+CHECKSUM        [09019be8bd87cc67eb52e1b17a9d8a61eb9407e1000000000000000000000000]
+KERNEL_FMT      [raw]
+RAMDISK_FMT     [gzip]
+EXTRA_FMT       [raw]
+Repack to boot image: [new-boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [10874880]
+RAMDISK_SZ      [1643464]
+SECOND_SZ       [0]
+EXTRA_SZ        [94208]
+OS_VERSION      [8.1.0]
+OS_PATCH_LEVEL  [2018-11]
+PAGESIZE        [2048]
+NAME            []
+CMDLINE         [console=ttyS1,115200n8 buildvariant=user]
+CHECKSUM        [d9828cb708f7514e9024e0f31a3553a66aac6b01000000000000000000000000]
+
+****************************
+ Output file is written to 
+ /storage/emulated/0/Download/magisk_patched_8HYPv.img 
+****************************
+cp: can't preserve ownership of 'busybox': Operation not permitted
+cp: can't preserve ownership of 'magisk32': Operation not permitted
+cp: can't preserve ownership of 'magisk64': Operation not permitted
+cp: can't preserve ownership of 'magiskboot': Operation not permitted
+cp: can't preserve ownership of 'magiskinit': Operation not permitted
+- All done!
