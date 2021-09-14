@@ -8,4 +8,4 @@ Phones supported:
 4. Nokia 1.3
 5. Hot Pepper Poblano VLE5
 6. ZTE Blade A3 Prime
-7. T-Mob
+7. T-Mobi
