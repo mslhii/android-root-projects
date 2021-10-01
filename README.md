@@ -7,4 +7,6 @@ Phones supported:
 3. BLU Studio J1
 4. Nokia 1.3
 5. Hot Pepper Poblano VLE5
-6. ZTE Blade A3 Prim
+6. ZTE Blade A3 Prime
+7. T-Mobile Revvlry
+8. Sky
