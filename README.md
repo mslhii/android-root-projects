@@ -11,4 +11,4 @@ Phones supported:
 7. T-Mobile Revvlry
 8. Sky Elite H5
 
-Rooting Tool
+Rooting Tools
