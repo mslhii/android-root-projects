@@ -12,3 +12,4 @@ Phones supported:
 8. Sky Elite H5
 
 Rooting Tools:
+
