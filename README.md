@@ -12,4 +12,4 @@ Phones supported:
 8. Sky Elite H5
 
 Rooting Tools:
-- LG G4 Inject R
+- LG G4 Inject Ro
