@@ -10,7 +10,7 @@ Phones supported:
 6. ZTE Blade A3 Prime
 7. T-Mobile Revvlry
 8. Sky Elite H5
-9. 
+9. A
 
 Rooting Tools:
 - LG G4 Root Inject Script
