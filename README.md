@@ -11,7 +11,7 @@ Phones supported:
 7. T-Mobile Revvlry
 8. Sky Elite H5
 9. AT&T Radiant Core
-10. T?
+10. TB?
 
 Rooting Tools:
 - LG G4 Root Inject Script
