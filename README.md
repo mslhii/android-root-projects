@@ -5,7 +5,7 @@ Phones supported:
 1. BLU Advance L5
 2. BLU Advance L4
 3. BLU Studio J1
-4. B
+4. BL
 5. Nokia 1.3
 6. Hot Pepper Poblano VLE5
 7. ZTE Blade A3 Prime
