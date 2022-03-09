@@ -1,5 +1,5 @@
 # android-root-projects
-Files related to Android phone rooting. All projects will come with both the original and 
+Files related to Android phone rooting. All projects will come with both the original and p
 
 Phones supported:
 1. BLU Advance L5
