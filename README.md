@@ -16,3 +16,4 @@ Phones supported:
 
 Rooting Tools:
 - LG G4 Root Inject Script
+
