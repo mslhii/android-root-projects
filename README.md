@@ -16,4 +16,4 @@ Phones supported:
 
 Rooting Tools:
 - LG G4 Root Inject Script
-- DirtyCow Exploit ADB Root Script (borr
+- DirtyCow Exploit ADB Root Script (borro
