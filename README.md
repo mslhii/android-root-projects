@@ -14,6 +14,7 @@ Phones supported:
 10. AT&T Radiant Core
 11. TBD
 
+
 Rooting Tools:
 - LG G4 Root Inject Script
 - DirtyCow Exploit ADB Root Script (borrowed from XDA Forums)
