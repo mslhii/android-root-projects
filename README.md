@@ -13,7 +13,7 @@ Phones supported:
 9. Sky Elite H5
 10. AT&T Radiant Core
 11. TBD
-12. T
+12. TB
 
 Rooting Tools:
 - LG G4 Root Inject Script
