@@ -12,7 +12,7 @@ Phones supported:
 8. T-Mobile Revvlry
 9. Sky Elite H5
 10. AT&T Radiant Core
-11. TBD
+11. TB
 12. TBD
 
 Rooting Tools:
