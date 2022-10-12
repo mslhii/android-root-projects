@@ -12,7 +12,7 @@ Phones supported:
 8. T-Mobile Revvlry
 9. Sky Elite H5
 10. AT&T Radiant Core
-11. Schok Volt 
+11. Schok Volt S
 12. TBD
 
 Rooting Tools:
