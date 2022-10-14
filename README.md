@@ -13,6 +13,7 @@ Phones supported:
 9. Sky Elite H5
 10. AT&T Radiant Core
 11. Schok Volt SV55
+
 12. TBD
 
 Rooting Tools:
