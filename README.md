@@ -14,7 +14,7 @@ Phones supported:
 10. AT&T Radiant Core
 11. Schok Volt SV55
 12. Coolpad Haylo
-12. TBD
+1. TBD
 
 Rooting Tools:
 - LG G4 Root Inject Script
