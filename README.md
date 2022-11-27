@@ -1,5 +1,5 @@
 # android-root-projects
-Files related to Android phone rooting. All projects will come with both the original and patched boot/recovery images in the repositories. More patched boot and recovery images will be uploaded as they come. (with GitHub restric
+Files related to Android phone rooting. All projects will come with both the original and patched boot/recovery images in the repositories. More patched boot and recovery images will be uploaded as they come. (with GitHub restrict
 
 Phones supported:
 1. BLU Advance L5
