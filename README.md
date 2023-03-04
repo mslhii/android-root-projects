@@ -14,7 +14,7 @@ Phones supported:
 10. AT&T Radiant Core
 11. Schok Volt SV55
 12. Coolpad Haylo
-1
+13
 13. TBD?
 
 Rooting Tools:
