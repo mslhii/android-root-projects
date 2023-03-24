@@ -15,7 +15,7 @@ Phones supported:
 11. Schok Volt SV55
 12. Coolpad Haylo
 13. TCL A3
-13. TBD?
+14. TBD?
 
 Rooting Tools:
 - LG G4 Root Inject Script
