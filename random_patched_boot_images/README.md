@@ -1,1 +1,1 @@
-New and patche
+New and patched
