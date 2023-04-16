@@ -1,1 +1,1 @@
-New and patched boot ima
+New and patched boot imag
