@@ -1,1 +1,1 @@
-New and patched boot images a to b
+New and patched boot images ar to b
