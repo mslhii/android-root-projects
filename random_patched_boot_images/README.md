@@ -1,1 +1,1 @@
-New and patched boot images are to be uploa
+New and patched boot images are to be upload
