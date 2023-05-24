@@ -15,7 +15,7 @@ Phones supported:
 11. Schok Volt SV55
 12. Coolpad Haylo
 13. TCL A3
-14. TCL ION 
+14. TCL ION X
 14. TBD?
 
 Rooting Tools:
