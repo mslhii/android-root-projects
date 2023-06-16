@@ -1,1 +1,1 @@
-New and patched boot and  images are to be uploaded to this repository
+New and patched boot and r images are to be uploaded to this repository
