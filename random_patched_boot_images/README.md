@@ -1,1 +1,1 @@
-New and patched boot and re images are to be uploaded to this repository
+New and patched boot and rec images are to be uploaded to this repository
