@@ -1,1 +1,1 @@
-New and patched boot and recovery images are to be uploaded to this repository as well as vbme
+New and patched boot and recovery images are to be uploaded to this repository as well as vbmet
