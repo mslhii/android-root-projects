@@ -16,7 +16,7 @@ Phones supported:
 12. Coolpad Haylo
 13. TCL A3
 14. TCL ION X
-1. TBD?
+15. TBD?
 
 Rooting Tools:
 - LG G4 Root Inject Script
