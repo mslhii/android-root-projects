@@ -16,7 +16,7 @@ Phones supported:
 12. Coolpad Haylo
 13. TCL A3
 14. TCL ION X
-15. TCL Stylus 5
+15. TCL Stylus 5G
 16. TBD?
 
 Rooting Tools:
