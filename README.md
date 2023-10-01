@@ -19,6 +19,6 @@ Files related to Android phone rooting. All projects will come with both the ori
 15. TCL Stylus 5G
 16. TBD?
 
-##Rooting Tools:
+###Rooting Tools:
 - LG G4 Root Inject Script
 - DirtyCow Exploit ADB Root Script (borrowed from XDA Forums)
