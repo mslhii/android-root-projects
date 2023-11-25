@@ -1,2 +1,2 @@
-### Random Patched Boot and v Images
+### Random Patched Boot and vb Images
 New and patched boot and recovery images are to be uploaded to this repository as well as vbmeta and other random images
