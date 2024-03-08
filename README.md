@@ -17,7 +17,8 @@ Files related to Android phone rooting. All projects will come with both the ori
 13. TCL A3
 14. TCL ION X
 15. TCL Stylus 5G
-16. TBD?
+16. 
+17. TBD?
 
 ### Rooting Tools:
 - LG G4 Root Inject Script
