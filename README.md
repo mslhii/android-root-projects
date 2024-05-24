@@ -18,7 +18,7 @@ Files related to Android phone rooting. All projects will come with both the ori
 14. TCL ION X
 15. TCL Stylus 5G
 16. TCL 30 XE
-17. TCL
+17. TCL 
 18. TBD?
 
 ### Rooting Tools:
