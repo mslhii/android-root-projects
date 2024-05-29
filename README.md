@@ -15,7 +15,7 @@ Files related to Android phone rooting. All projects will come with both the ori
 11. Schok Volt SV55
 12. Coolpad Haylo
 13. TCL A3
-14. TCL ION X
+14. TCL ION X/
 15. TCL Stylus 5G
 16. TCL 30 XE
 17. TCL 
