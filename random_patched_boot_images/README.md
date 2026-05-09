@@ -7,3 +7,4 @@ Uploads also may or may not be restricted due to the above reasons. Uploads will
 
 Update: there will be no more updates because there have been no more exploits available for a long time, even older exploits such as mtkclient and mtk-su have long been patched out of all newer phones with MediaTek chip
 
+ 
